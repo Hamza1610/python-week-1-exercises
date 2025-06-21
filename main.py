@@ -218,7 +218,7 @@ def validate_block_height(height: Union[int, float, str]) -> Tuple[bool, str]:
     """
     # TODO: Ensure height is an integer
     # TODO: Check that height is not negative
-    # TODO: Check that height is within a realistic range (e.g., <= 800,000)
+    # TODO: Check that height is within a realistic range (e.g., <= 800,000).
     if not isinstance(height, int):
         return (False, "Block height must be an integer")
     if height < 0:
